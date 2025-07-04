@@ -84,14 +84,14 @@ main {
   background-color: var(--Grey800);
   color: var(--white);
   border-radius: 16px;
-
   width: clamp(20rem, 75%, 36rem);
 }
 
 .profile img {
   margin: auto;
   border-radius: 50%;
-  width: 10rem;
+  width: 8rem;
+  margin-block-end: 3rem;
 }
 
 .links-container {
