@@ -1,0 +1,128 @@
+/* General Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --green: #c5f82a;
+  --Grey700: #333333;
+  --Grey800: #1f1f1f;
+  --Grey900: #141414;
+
+  /* Typography */
+  --font-base: "Inter", sans-serif;
+
+  /* Font Weights */
+  --weight400: 400;
+  --weight600: 600;
+  --weight700: 700;
+  --weight900: 900;
+}
+
+/* Global */
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--Grey900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: var(--weight400);
+  margin-block: 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: var(--green);
+  margin-block: 1rem;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: var(--weight400);
+  margin-block: 2.5rem;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: var(--Grey800);
+  color: var(--white);
+  border-radius: 16px;
+
+  width: clamp(28rem, 50%, 38rem);
+}
+
+.profile img {
+  margin: auto;
+  border-radius: 50%;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+/* Components */
+.social-links {
+  background-color: var(--Grey700);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: var(--weight600);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 6px;
+  transition: background-color 0.5s ease;
+}
+
+.social-links:hover {
+  background-color: var(--green);
+  color: var(--Grey900);
+  font-weight: var(--weight900);
+}
+
+.social-links:active {
+  background-color: var(--white);
+  color: var(--Grey900);
+  font-weight: var(--weight900);
+}
