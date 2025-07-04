@@ -1,7 +1,6 @@
 # Frontend Mentor - Social links profile
 
-This is a solution to the [Recipe page code componentd challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).
-Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Overview
 
@@ -23,7 +22,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - mobile first approach
-- Flexbox
+- Flexbox layout
 - Responsive design principles
 - JavaScript EventListener for smooth loading
 
