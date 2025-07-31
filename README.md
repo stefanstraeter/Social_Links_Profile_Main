@@ -15,6 +15,10 @@ Users should be able to:
 - Solution URL: [GitHub Repository](https://github.com/stefanstraeter/Social_Links_Profile_Main)
 - Live Site URL: [Live Demo](https://stefanstraeter.github.io/Social_Links_Profile_Main/)
 
+### Screenshot
+<img width="1015" height="640" alt="Social links profile" src="https://github.com/user-attachments/assets/527b4f3c-9c16-4665-8dc6-5f7cb6166447" />
+
+
 ## My process
 
 ### Built with
